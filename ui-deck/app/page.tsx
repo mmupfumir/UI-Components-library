@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Page() {
   return (
-    <div className="inter">
+    <div className="poppins">
       <Navbar />
       <CTASection />
     </div>
@@ -16,7 +16,7 @@ function CTASection() {
     <div className="flex flex-col mx-16 items-center mt-[120px] gap-6">
       <h2 className="font-bold text-2xl text-center">
         Manage and Create Your React Components
-        <span className="text-gray-400"> Effortlessly!</span>
+        <span className="text-slate-400"> Effortlessly!</span>
       </h2>
       {/* */}
       <p className="text-center text-[15px] w-[510px] max-sm:w-full" text-slate-500>
@@ -46,14 +46,14 @@ function Navbar() {
 function Logo() {
   return (
     <div className="flex gap-2 items-center">
-      <div className="bg-black flex items-center justify-center px-2 py-1 rounded-md">
+      <div className="bg-black flex items-center justify-center px-2 py-2 rounded-md">
         <div className="w-[26px] h-[26px] items-center justify-center flex">
           <SiReact className="text-white text-[22px]" />
         </div>
       </div>
       <div className="flex gap-1 text-[22px]">
         <span className="font-bold text-black">UI</span>
-        <span className="text-slate-600">Deck</span>
+        <span className="text-slate-400">Studio</span>
       </div>
     </div>
   );
